@@ -8,7 +8,7 @@ This is a responsive and modern Organ Donation platform built with **React**, **
 - ✅ Individual profile pages for each user type
 - ✅ Home page accessible to all
 - ✅ Donor ↔ Receiver profile visibility and interaction
-- ✅ Styled with Tailwind CSS using black, white, and green (`rgb(22,163,73)`)
+- ✅ Styled with Tailwind CSS
 - ✅ React Router for navigation
 - ✅ Fully responsive and smooth scrolling
 
