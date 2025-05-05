@@ -14,10 +14,10 @@ function App() {
         <div className="flex flex-col min-h-screen">
           <Navbar />
           {/* <DonorStories /> */}
-          <main className="flex-grow min-h-screen bg-white font-sans text-gray-800">
+          <main className="flex-grow bg-white font-sans text-gray-800 p-4 sm:p-6 lg:p-8">
             <AppRoutes />
           </main>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </AuthProvider>
     </Router>

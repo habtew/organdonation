@@ -3,6 +3,7 @@ import { Heart } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
+    <div className='p-10 m-0 sm:p-6 lg:p-8'>
     <footer className="bg-black text-white py-8 mt-auto">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
@@ -16,7 +17,7 @@ const Footer: React.FC = () => {
               <h3 className="font-medium text-[rgb(22,163,73)] mb-2">About</h3>
               <ul className="space-y-2">
                 <li><a href="#" className="hover:text-[rgb(22,163,73)] transition-colors duration-300">Our Mission</a></li>
-                <li><a href="#" className="hover:text-[rgb(22,163,73)] transition-colors duration-300">How It Works</a></li>
+                <li><a href="#how-it-works" className="hover:text-[rgb(22,163,73)] transition-colors duration-300">How It Works</a></li>
                 <li><a href="#" className="hover:text-[rgb(22,163,73)] transition-colors duration-300">Team</a></li>
               </ul>
             </div>
@@ -51,6 +52,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
     </footer>
+    </div>
   );
 };
 

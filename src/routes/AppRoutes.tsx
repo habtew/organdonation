@@ -8,6 +8,7 @@ import DonorProfile from '../pages/DonorProfile';
 import ReceiverProfile from '../pages/ReceiverProfile';
 import DoctorProfile from '../pages/DoctorProfile';
 import Connection from '../pages/Connection';
+import ChatPage from '../pages/Chat';
 
 const AppRoutes: React.FC = () => {
   return (
@@ -19,7 +20,7 @@ const AppRoutes: React.FC = () => {
       <Route path="/receiver-profile" element={<ReceiverProfile />} />
       <Route path="/doctor-profile" element={<DoctorProfile />} />
       <Route path="/connections" element={<Connection />} />
-      
+      <Route path="/chat/:id" element={<ChatPage />} />
       {/* Redirect any unmatched routes to the home page */}
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
