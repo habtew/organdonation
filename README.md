@@ -8,7 +8,7 @@ This is a responsive and modern Organ Donation platform built with **React**, **
 - ✅ Individual profile pages for each user type
 - ✅ Home page accessible to all
 - ✅ Donor ↔ Receiver profile visibility and interaction
-- ✅ Styled with Tailwind CSS using black, white, and green (`rgb(22,163,73)`)
+- ✅ Styled with Tailwind CSS
 - ✅ React Router for navigation
 - ✅ Fully responsive and smooth scrolling
 
@@ -18,8 +18,8 @@ This is a responsive and modern Organ Donation platform built with **React**, **
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/organ-donation-app.git
-   cd organ-donation-app
+   git clone https://github.com/habtew/organdonation.git
+   cd organdonation
    ```
 
 2. **Install dependencies**
@@ -32,28 +32,10 @@ This is a responsive and modern Organ Donation platform built with **React**, **
    npm run dev
    ```
 
-4. Open your browser at [http://localhost:5173](http://localhost:5173)
+4. Open your browser at (http://localhost:5173)
 
 ---
 
-## 📁 Project Structure
-
-```
-src/
-├── components/         # Reusable components
-├── pages/              # All pages: Home, Login, Signup, Profiles
-│   ├── Home.jsx
-│   ├── Login.jsx
-│   ├── Signup.jsx
-│   ├── DonorProfile.jsx
-│   ├── ReceiverProfile.jsx
-│   ├── DoctorProfile.jsx
-├── App.jsx             # App with router config
-├── main.jsx            # Entry point
-├── index.css           # Tailwind + custom styles
-```
-
----
 
 ## 🎨 Styling
 
